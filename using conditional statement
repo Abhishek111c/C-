@@ -1,0 +1,30 @@
+// Using conditional statements, determine which integer is greater and display a message to the user indicating which integer is greater.
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num1, num2;
+
+    // Prompt the user to enter the first integer
+    cout << "Enter the first integer: ";
+    cin >> num1;
+
+    // Prompt the user to enter the second integer
+    cout << "Enter the second integer: ";
+    cin >> num2;
+
+    // Compare the two integers and display a message indicating which integer is greater
+    if (num1 > num2) {
+        cout << num1 << " is greater than " << num2 << endl;
+    }
+    else if (num2 > num1) {
+        cout << num2 << " is greater than " << num1 << endl;
+    }
+    else {
+        cout << "The two integers are equal." << endl;
+    }
+
+    return 0;
+}
