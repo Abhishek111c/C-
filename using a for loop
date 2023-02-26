@@ -1,0 +1,20 @@
+// Write a program that takes an integer input from the user and prints out all the even numbers from 0 up to the input number (inclusive) using a for loop.
+
+
+
+
+#include <iostream>
+
+int main() {
+    int num;
+    std::cout << "Enter a number: ";
+    std::cin >> num;
+
+    std::cout << "Even numbers from 0 to " << num << ":" << std::endl;
+    for (int i = 0; i <= num; i += 2) {
+        std::cout << i << " ";
+    }
+
+    std::cout << std::endl;
+    return 0;
+}
